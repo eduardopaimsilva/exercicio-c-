@@ -28,7 +28,7 @@ namespace Exercicio04
         else
         {
         salario = salario + 100 * 0.05;
-        Console.WriteLine("O salario com 5% de aumento "+salario);
+        Console.WriteLine("O salario com 5% de aumento "+ salario);
 
          } 
 
