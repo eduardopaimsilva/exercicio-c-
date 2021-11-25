@@ -27,7 +27,6 @@ namespace Exercicio02
                descontoIR = salarioBruto * percentualDescontoIR;
           
           double salarioLiquido = salarioBruto - descontoSindicato - descontoINSS - descontoIR;
-
            Console.WriteLine($"(-) SINDICATO (3%) : {string.Format("{0:0.00}", descontoSindicato)}\n" +
            $"(-) SINDICATO (3%) : {string.Format("{0:0.00}", descontoSindicato)}\n" +
            $"(-) INSS (11%) : {string.Format("{0:0.00}", descontoINSS)}\n"+
