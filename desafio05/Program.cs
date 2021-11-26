@@ -1,14 +1,26 @@
-﻿using System;
+﻿// See https://aka.ms/new-console-template for more information
+using System;
 
-namespace Exercicio02
+namespace desafio05
 {
     public class Program
     {
         public static void Main(string[] args)
 
+        double valorHora = 0;
+
+      try
+           {
+             Console.WriteLine("Digiti o seu valor de hora")
+             valorHora = Convert.ToDouble(Console.ReadLine())
+             
+           }
+           catch (Exception ex)
+           {
+              Console.WriteLine($"ERRO: {ex.Message}");
+           }
+
         {
-          Console.WriteLine("Digiti o seu valor de hora");
-          double valorHora = Convert.ToDouble(Console.ReadLine());
           Console.WriteLine("Digiti a valor de horas trabalhadas no mes");
           int quantidadeHoras = Convert.ToInt32(Console.ReadLine());
           double salarioBruto = valorHora * quantidadeHoras;
@@ -37,3 +49,4 @@ namespace Exercicio02
       }
     }
 }
+

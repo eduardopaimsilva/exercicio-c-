@@ -35,7 +35,7 @@ namespace Exercicio07
            try
            {
              Console.WriteLine("Digiti um numero");
-             int numero = Convert.ToInt32(ConsoleReadLine());
+             int numero = Convert.ToInt32(ConsoleReadLine())
              
            }
            catch (Exception ex)

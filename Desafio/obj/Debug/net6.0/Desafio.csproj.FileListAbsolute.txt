@@ -1,0 +1,15 @@
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\obj\Debug\net6.0\Desafio.csproj.AssemblyReference.cache
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\obj\Debug\net6.0\Desafio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\obj\Debug\net6.0\Desafio.AssemblyInfoInputs.cache
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\obj\Debug\net6.0\Desafio.AssemblyInfo.cs
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\obj\Debug\net6.0\Desafio.csproj.CoreCompileInputs.cache
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\bin\Debug\net6.0\Desafio.exe
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\bin\Debug\net6.0\Desafio.deps.json
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\bin\Debug\net6.0\Desafio.runtimeconfig.json
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\bin\Debug\net6.0\Desafio.dll
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\bin\Debug\net6.0\ref\Desafio.dll
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\bin\Debug\net6.0\Desafio.pdb
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\obj\Debug\net6.0\Desafio.dll
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\obj\Debug\net6.0\ref\Desafio.dll
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\obj\Debug\net6.0\Desafio.pdb
+C:\Users\eduardo\Desktop\Cursoc#\exercicio-c-\Desafio\obj\Debug\net6.0\Desafio.genruntimeconfig.cache

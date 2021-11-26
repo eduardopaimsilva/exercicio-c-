@@ -1,13 +1,26 @@
-﻿using System;
+﻿
+using System;
 
-namespace Exercicio04
+namespace Desafio
 {
     public class Program
     {
         public static void Main(string[] args)
-        {
-        Console.WriteLine("digiti o salario: ");
-        double salario = Convert.ToDouble(Console.ReadLine());
+
+         {
+           double salario = 0;
+  
+           try
+           {
+            Console.WriteLine("digiti o salario: ");
+            salario = Convert.ToDouble(Console.ReadLine());
+             
+           }
+           catch (Exception ex)
+           {
+              Console.WriteLine($"ERRO: {ex.Message}");
+           }
+
 
         if (salario < 2000)
         {
@@ -21,8 +34,8 @@ namespace Exercicio04
         }
         else if (salario >= 7000 && salario < 15000)
         {
-        salario = salario * 0.15;
-        Console.WriteLine("O salario com 15% de aumento " +salario);
+        salario = salario* 0.15;
+        Console.WriteLine("O salario com 15% de aumento "+salario);
 
         }
         else
@@ -30,8 +43,8 @@ namespace Exercicio04
         salario = salario * 0.05;
         Console.WriteLine("O salario com 5% de aumento "+ salario);
 
-         } 
 
         }
     }
 }
+
