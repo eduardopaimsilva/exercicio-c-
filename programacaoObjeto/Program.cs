@@ -13,7 +13,14 @@ namespace EstruturasRepeticao
           objetoPessoa.Sobrenome = "Paim";
           Console.WriteLine($"O nome da pessoa e:{objetoPessoa.Nome} {objetoPesso.Sobrenome}");
            
-           Pessoa novoObjetoPessoa = new("maria", "Silva", new DateTime(1980, 10, 25));
+           Console.WriteLine("Digiti sua data de nascimento(dd/MM/aaaa)");
+           string? textoDataNascimento = Console.WriteLine();
+           int ano = Convert.ToInt32(textoDataNascimento?.Substring(6, 4));
+           int mes = Convert.ToInt32(textoDataNascimento?.Substring(3, 2));
+           int di = Convert.ToInt32(textoDataNascimento?.Substring(0, 2));
+
+
+           Pessoa novoObjetoPessoa = new("maria", "Silva", new DateTime(ano, mes, dia));
            Console.WriteLine($"O nome da pessoa do novo objeto e {novoObjetoPessoa.nome} {novoObjetoPessoa.Sobrenome}. {novoObjetoPessoa.CalculaIdade()}");
         }
     }
